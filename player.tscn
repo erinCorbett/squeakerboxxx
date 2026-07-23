@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://boqgkp0yfh861"]
+
+[ext_resource type="Script" uid="uid://dqf4hlcq6hiyr" path="res://Assets/Scripts/Player.cs" id="1_onrkg"]
+[ext_resource type="Texture2D" uid="uid://dvw20j1d584er" path="res://Assets/Textures/dj squeakerboxxx mouth closed.png" id="2_i3pqv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q6r6c"]
+size = Vector2(21.455849, 21.356422)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_c6smh"]
+radius = 50.98
+
+[node name="Player" type="RigidBody2D" unique_id=126655281 node_paths=PackedStringArray("groundCheck", "playerSprite", "ground")]
+physics_interpolation_mode = 1
+mass = 3.0
+lock_rotation = true
+script = ExtResource("1_onrkg")
+Movespeed = 700.0
+jumpForce = 700.0
+fallMultiplier = 5.0
+lowJumpMultiplier = 6.0
+groundCheck = NodePath("GroundCheck")
+playerSprite = NodePath("PlayerSprite")
+ground = NodePath("")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1772064163]
+physics_interpolation_mode = 1
+position = Vector2(3.0500011, -24)
+scale = Vector2(4.19, 3.465)
+shape = SubResource("RectangleShape2D_q6r6c")
+
+[node name="PlayerSprite" type="Sprite2D" parent="." unique_id=292539905]
+position = Vector2(0, -50)
+texture = ExtResource("2_i3pqv")
+flip_h = true
+
+[node name="GroundCheck" type="Area2D" parent="." unique_id=544929229]
+position = Vector2(0, 14)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GroundCheck" unique_id=754973349]
+shape = SubResource("CircleShape2D_c6smh")
+debug_color = Color(3.1766297e-06, 0.5929789, 0.7405513, 0.41960785)
