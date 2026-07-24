@@ -103,8 +103,4 @@ global_illumination/sdfgi/frames_to_converge=0
 global_illumination/sdfgi/frames_to_update_lights=4
 environment/volumetric_fog/use_filter=0
 limits/opengl/max_renderable_lights=8
-<<<<<<< HEAD
-environment/defaults/default_clear_color=Color(0.2405729, 0.1696814, 0.17414537, 1)
-=======
-environment/defaults/default_clear_color=Color(0.05370482, 0.4847756, 0.47951347, 1)
->>>>>>> 919d31248bccc9a74234475181f9140517ad53a6
+environment/defaults/default_clear_color=Color(0.3653389, 0.27798247, 0.2589645, 1)

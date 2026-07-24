@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Squeakerboxx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("ExportRelease")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+979868b31cb3bab01c90e5c9d17f14928a545f1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce3ac5baafabca6667c85bc83f0a2e42bbecf2ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Squeakerboxx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Squeakerboxx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

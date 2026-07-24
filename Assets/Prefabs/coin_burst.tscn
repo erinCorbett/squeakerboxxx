@@ -2,58 +2,12 @@
 
 [ext_resource type="Texture2D" uid="uid://bxgx5kqpb434b" path="res://Assets/Textures/star.png" id="1_r1e8g"]
 
-[sub_resource type="CurveTexture" id="CurveTexture_5mdek"]
-
-[sub_resource type="Curve" id="Curve_kw46u"]
-_limits = [-1.0, 1.0, 0.0, 1.0]
-_data = [Vector2(0, -0.421875), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
-point_count = 2
-
-[sub_resource type="CurveTexture" id="CurveTexture_u8h6f"]
-curve = SubResource("Curve_kw46u")
-
-[sub_resource type="Curve" id="Curve_5mdek"]
-_limits = [0.0, 3.0, 0.0, 1.0]
-_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1e-05, 3), 0.0, 0.0, 0, 0, Vector2(0.98484844, 0.6796875), 0.0, 0.0, 0, 0]
-point_count = 3
-
-[sub_resource type="CurveTexture" id="CurveTexture_kw46u"]
-curve = SubResource("Curve_5mdek")
-
-[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_c6smh"]
-particle_flag_disable_z = true
-emission_shape_scale = Vector3(0.4, 0.5, 1)
-emission_shape = 6
-emission_ring_axis = Vector3(0, 0, 1)
-emission_ring_height = 1.0
-emission_ring_radius = 23.73
-emission_ring_inner_radius = 0.0
-emission_ring_cone_angle = 90.0
-angle_min = -720.0
-angle_max = 720.0
-direction = Vector3(0, -1, 0)
-spread = 180.0
-initial_velocity_max = 410.33
-gravity = Vector3(0, -900, 0)
-linear_accel_min = 2.5599978
-linear_accel_max = 32.049995
-scale_over_velocity_max = 61.26
-scale_over_velocity_curve = SubResource("CurveTexture_kw46u")
-color = Color(0.50042605, 0.48561954, 0.9133193, 1)
-emission_curve = SubResource("CurveTexture_5mdek")
-hue_variation_min = -2.2351742e-08
-hue_variation_max = 0.99999994
-hue_variation_curve = SubResource("CurveTexture_u8h6f")
-
-[node name="CoinBurst" type="GPUParticles2D" unique_id=613371364]
+[node name="CoinBurst" type="CPUParticles2D" unique_id=928997104]
 emitting = false
-amount = 20
+amount = 5
 texture = ExtResource("1_r1e8g")
 lifetime = 0.27
 one_shot = true
-speed_scale = 2.7199999999999998
+speed_scale = 2.72
 explosiveness = 0.27
 randomness = 0.45
-interpolate = false
-draw_order = 0
-process_material = SubResource("ParticleProcessMaterial_c6smh")

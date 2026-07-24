@@ -69,6 +69,14 @@ animations = [{
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_441k0"]
 
+[sub_resource type="Gradient" id="Gradient_g838n"]
+colors = PackedColorArray(0.7911734, 0.37315413, 0, 1, 1, 1, 1, 1)
+
+[sub_resource type="Curve" id="Curve_dayt1"]
+_limits = [-1.0, 1.0, 0.0, 1.0]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
 [node name="Coin" type="Area2D" unique_id=345939538 node_paths=PackedStringArray("sprite", "collider", "coinBurst")]
 z_index = -2
 script = ExtResource("1_aoqff")
@@ -90,6 +98,23 @@ shape = SubResource("CircleShape2D_441k0")
 [node name="CoinBurst" parent="." unique_id=1887231280 instance=ExtResource("16_8od3o")]
 z_index = 1
 z_as_relative = false
+lifetime = 0.15000000000000002
+speed_scale = 0.72
+explosiveness = 1.0
+randomness = 0.71
+emission_shape = 6
+emission_ring_inner_radius = 0.8
+emission_ring_radius = 1.875
+direction = Vector2(1, -1)
+spread = 166.95
+gravity = Vector2(0, -980)
+initial_velocity_max = 578.13
+scale_amount_min = 0.0
+color = Color(0.36496395, 0.657922, 1, 1)
+color_ramp = SubResource("Gradient_g838n")
+hue_variation_min = -1.0
+hue_variation_max = 1.0
+hue_variation_curve = SubResource("Curve_dayt1")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

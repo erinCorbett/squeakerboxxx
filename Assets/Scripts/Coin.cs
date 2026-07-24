@@ -12,7 +12,7 @@ public partial class Coin : Area2D
 	public CollisionShape2D collider;
 
 	[Export]
-	public GpuParticles2D coinBurst;
+	public CpuParticles2D coinBurst;
 
 	
 	private float coinTimer, coinReturnCounter;
