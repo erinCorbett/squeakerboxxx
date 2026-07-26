@@ -20,19 +20,24 @@
             "related": ".xml"
           }
         }
-      },
-      "GodotSharpEditor/4.7.1": {
+      }
+    },
+    "net8.0/linux-arm64": {
+      "Godot.SourceGenerators/4.7.1": {
         "type": "package",
-        "dependencies": {
-          "GodotSharp": "4.7.1"
-        },
+        "build": {
+          "build/Godot.SourceGenerators.props": {}
+        }
+      },
+      "GodotSharp/4.7.1": {
+        "type": "package",
         "compile": {
-          "lib/net8.0/GodotSharpEditor.dll": {
+          "lib/net8.0/GodotSharp.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/GodotSharpEditor.dll": {
+          "lib/net8.0/GodotSharp.dll": {
             "related": ".xml"
           }
         }
@@ -65,26 +70,12 @@
         "lib/net8.0/GodotSharp.dll",
         "lib/net8.0/GodotSharp.xml"
       ]
-    },
-    "GodotSharpEditor/4.7.1": {
-      "sha512": "MAX9wPgjX9BM+EOMxuF++mWKdvO2y0ZiEAfv6D68HGseQc8mX//yc7QrJizXSJ4ii1nh3krXZSyIJ77nmjOgYA==",
-      "type": "package",
-      "path": "godotsharpeditor/4.7.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "godotsharpeditor.4.7.1.nupkg.sha512",
-        "godotsharpeditor.nuspec",
-        "lib/net8.0/GodotSharpEditor.dll",
-        "lib/net8.0/GodotSharpEditor.xml"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Godot.SourceGenerators >= 4.7.1",
-      "GodotSharp >= 4.7.1",
-      "GodotSharpEditor >= 4.7.1"
+      "GodotSharp >= 4.7.1"
     ]
   },
   "packageFolders": {
@@ -149,11 +140,6 @@
             "target": "Package",
             "version": "[4.7.1, )",
             "autoReferenced": true
-          },
-          "GodotSharpEditor": {
-            "target": "Package",
-            "version": "[4.7.1, )",
-            "autoReferenced": true
           }
         },
         "imports": [
@@ -173,7 +159,15 @@
             "version": "[8.0.29, 8.0.29]"
           },
           {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
+            "version": "[8.0.29, 8.0.29]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.29, 8.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.linux-arm64",
             "version": "[8.0.29, 8.0.29]"
           },
           {
@@ -187,6 +181,11 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "linux-arm64": {
+        "#import": []
       }
     }
   }
