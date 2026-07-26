@@ -1,20 +1,20 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784924369
-export_presets.cfg::TextFile::-1::1784866664::0::1::::<><><>0<>0<><>::
-node_2d.tscn::PackedScene::1053425429836613600::1784924351::0::1::::<><><>0<>0<><>::uid://phwuduqoqd53::::res://Assets/Textures/GroundTexture.png<>uid://dvw20j1d584er::::res://Assets/Textures/dj squeakerboxxx mouth closed.png<>uid://coxuhqcfxps4v::::res://Assets/Scripts/PlayerControllerBody2D.cs<>uid://c8wavmy6binrc::::res://Assets/Prefabs/coin.tscn
+::res://::1785083956
+export_presets.cfg::TextFile::-1::1785082854::0::1::::<><><>0<>0<><>::
+node_2d.tscn::PackedScene::1053425429836613600::1785083944::0::1::::<><><>0<>0<><>::uid://phwuduqoqd53::::res://Assets/Textures/GroundTexture.png<>uid://dvw20j1d584er::::res://Assets/Textures/dj squeakerboxxx mouth closed.png<>uid://coxuhqcfxps4v::::res://Assets/Scripts/PlayerControllerBody2D.cs<>uid://c8wavmy6binrc::::res://Assets/Prefabs/coin.tscn
 player.tscn::PackedScene::3402477526153967364::1784866664::0::1::::<><><>0<>0<><>::uid://dqf4hlcq6hiyr::::res://Assets/Scripts/Player.cs<>uid://dvw20j1d584er::::res://Assets/Textures/dj squeakerboxxx mouth closed.png
-README.md::TextFile::-1::1784866664::0::1::::<><><>0<>0<><>::
-::res://Assets/::1784866663
-::res://Assets/Prefabs/::1784866663
-coin.tscn::PackedScene::7134527688468260904::1784866663::0::1::::<><><>0<>0<><>::uid://fnjkmlo1yfpu::::res://Assets/Scripts/Coin.cs<>uid://crq5s43o2pnwa::::res://Assets/Textures/CoinAnim/CoinAnim0001.png<>uid://c078ujrh15bba::::res://Assets/Textures/CoinAnim/CoinAnim0002.png<>uid://xtalolrkjiw1::::res://Assets/Textures/CoinAnim/CoinAnim0003.png<>uid://ybawvljfsdd::::res://Assets/Textures/CoinAnim/CoinAnim0004.png<>uid://1gu7lawt8fb1::::res://Assets/Textures/CoinAnim/CoinAnim0005.png<>uid://vb3vn3q0wkcs::::res://Assets/Textures/CoinAnim/CoinAnim0006.png<>uid://dltkoqn8cd384::::res://Assets/Textures/CoinAnim/CoinAnim0007.png<>uid://dtnq2xtjuynng::::res://Assets/Textures/CoinAnim/CoinAnim0008.png<>uid://7an2jhv5ixnh::::res://Assets/Textures/CoinAnim/CoinAnim0009.png<>uid://btgs5oj5tl7ua::::res://Assets/Textures/CoinAnim/CoinAnim0010.png<>uid://dgg6mx55a81x2::::res://Assets/Textures/CoinAnim/CoinAnim0011.png<>uid://c5cbjk0xuj8g0::::res://Assets/Textures/CoinAnim/CoinAnim0012.png<>uid://8qplwux0j1dr::::res://Assets/Textures/CoinAnim/CoinAnim0013.png<>uid://bqbce1mcy53kp::::res://Assets/Textures/CoinAnim/CoinAnim0014.png<>uid://b3wbbdwnv81sf::::res://Assets/Prefabs/coin_burst.tscn
-coin_burst.tscn::PackedScene::4397187311109793097::1784866663::0::1::::<><><>0<>0<><>::uid://bxgx5kqpb434b::::res://Assets/Textures/star.png
-::res://Assets/Scripts/::1784866663
+README.md::TextFile::-1::1785082854::0::1::::<><><>0<>0<><>::
+::res://Assets/::1784954239
+::res://Assets/Prefabs/::1785083936
+coin.tscn::PackedScene::7134527688468260904::1785083936::0::1::::<><><>0<>0<><>::uid://fnjkmlo1yfpu::::res://Assets/Scripts/Coin.cs<>uid://crq5s43o2pnwa::::res://Assets/Textures/CoinAnim/CoinAnim0001.png<>uid://c078ujrh15bba::::res://Assets/Textures/CoinAnim/CoinAnim0002.png<>uid://xtalolrkjiw1::::res://Assets/Textures/CoinAnim/CoinAnim0003.png<>uid://ybawvljfsdd::::res://Assets/Textures/CoinAnim/CoinAnim0004.png<>uid://1gu7lawt8fb1::::res://Assets/Textures/CoinAnim/CoinAnim0005.png<>uid://vb3vn3q0wkcs::::res://Assets/Textures/CoinAnim/CoinAnim0006.png<>uid://dltkoqn8cd384::::res://Assets/Textures/CoinAnim/CoinAnim0007.png<>uid://dtnq2xtjuynng::::res://Assets/Textures/CoinAnim/CoinAnim0008.png<>uid://7an2jhv5ixnh::::res://Assets/Textures/CoinAnim/CoinAnim0009.png<>uid://btgs5oj5tl7ua::::res://Assets/Textures/CoinAnim/CoinAnim0010.png<>uid://dgg6mx55a81x2::::res://Assets/Textures/CoinAnim/CoinAnim0011.png<>uid://c5cbjk0xuj8g0::::res://Assets/Textures/CoinAnim/CoinAnim0012.png<>uid://8qplwux0j1dr::::res://Assets/Textures/CoinAnim/CoinAnim0013.png<>uid://bqbce1mcy53kp::::res://Assets/Textures/CoinAnim/CoinAnim0014.png<>uid://b3wbbdwnv81sf::::res://Assets/Prefabs/coin_burst.tscn
+coin_burst.tscn::PackedScene::4397187311109793097::1785083925::0::1::::<><><>0<>0<><>::uid://bxgx5kqpb434b::::res://Assets/Textures/star.png
+::res://Assets/Scripts/::1785082853
 CameraManager.cs::CSharpScript::6390384602513894715::1784866663::0::1::::<>Camera2D<><>0<>0<><>::
-Coin.cs::CSharpScript::378346087811726726::1784866663::0::1::::<>Area2D<><>0<>0<><>::
+Coin.cs::CSharpScript::378346087811726726::1785082853::0::1::::<>Area2D<><>0<>0<><>::
 ParallaxScrolling.cs::CSharpScript::5068398373240432039::1784866663::0::1::::<>Sprite2D<><>0<>0<><>::
 Player.cs::CSharpScript::8294379313020820745::1784866663::0::1::::<>RigidBody2D<><>0<>0<><>::
 PlayerControllerBody2D.cs::CSharpScript::5804193550796429247::1784866663::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://Assets/Textures/::1784866663
+::res://Assets/Textures/::1784954239
 Background.jpg::CompressedTexture2D::7956351301436880876::1784866663::1784924369::1::::<><><>0<>0<>e0d81fc4cda00d5f97d8ea96e5fd5b08<>res://.godot/imported/Background.jpg-544be391d4e58f07938f24e6928f84f9.ctex::
 bgsquare0001.png::CompressedTexture2D::7823625612061430784::1784866663::1784924369::1::::<><><>0<>0<>98202633afe9446888f1d0149c63d13c<>res://.godot/imported/bgsquare0001.png-a0849c80eac81e05bd6d030fdb41fdf9.ctex::
 bgsquare0002.png::CompressedTexture2D::1435025191875514428::1784866663::1784924369::1::::<><><>0<>0<>b38c9e587ba9925d61d2bd66a26a2e9f<>res://.godot/imported/bgsquare0002.png-b92f905f82360e555f644d1f90894861.ctex::
@@ -22,7 +22,7 @@ dj squeakerboxxx mouth closed.png::CompressedTexture2D::8680328594772408405::178
 GroundTexture.png::CompressedTexture2D::1068654977780311940::1784866663::1784924369::1::::<><><>0<>0<>f78ff8a4e2f14c55eb4388c3bc0b4df0<>res://.godot/imported/GroundTexture.png-d83052e772c5f97b52504fc0483a45fc.ctex::
 icon.svg::CompressedTexture2D::8872298436061724063::1784866663::1784924369::1::::<><><>0<>0<>8913ddd132a6bfbdaad30254c551809e<>res://.godot/imported/icon.svg-8c0dfe7377b8350deb604d8d5f0f7e7b.ctex::
 star.png::CompressedTexture2D::4014600969177393059::1784866663::1784924369::1::::<><><>0<>0<>4b334f5a50bc2df98da97ac90462c509<>res://.godot/imported/star.png-55f0bf3763c22a6e1764e7df74cf1706.ctex::
-::res://Assets/Textures/CoinAnim/::1784866663
+::res://Assets/Textures/CoinAnim/::1784954239
 CoinAnim0001.png::CompressedTexture2D::6000936974475451272::1784866663::1784924369::1::::<><><>0<>0<>1d93c91341a9e2396e55f0222cef0860<>res://.godot/imported/CoinAnim0001.png-7a8abec719cbb676d387a79bc4a2fbdf.ctex::
 CoinAnim0002.png::CompressedTexture2D::6595662422432115158::1784866663::1784924369::1::::<><><>0<>0<>d45678f7b6640d9767791333c366a95f<>res://.godot/imported/CoinAnim0002.png-372f1e0c9b4a737bee6cd97244a8e6b3.ctex::
 CoinAnim0003.png::CompressedTexture2D::1653586977840714350::1784866663::1784924369::1::::<><><>0<>0<>f01b6a292101496e9ecc289544e3c434<>res://.godot/imported/CoinAnim0003.png-8c3d2c0be9da304e54c91630f178f529.ctex::
@@ -37,7 +37,7 @@ CoinAnim0011.png::CompressedTexture2D::7594686291480051673::1784866663::17849243
 CoinAnim0012.png::CompressedTexture2D::6882712786098949137::1784866663::1784924369::1::::<><><>0<>0<>56261388b94ac3ae84ca118179155654<>res://.godot/imported/CoinAnim0012.png-c719162d6a414ee8f96ba0ac3b67e39d.ctex::
 CoinAnim0013.png::CompressedTexture2D::2350193470233074455::1784866663::1784924369::1::::<><><>0<>0<>f555438b950d17125f0d709360589e35<>res://.godot/imported/CoinAnim0013.png-a7c19ff7bf6151a9fa516114d0ee84b2.ctex::
 CoinAnim0014.png::CompressedTexture2D::3511636521085742979::1784866663::1784924369::1::::<><><>0<>0<>13e348c026de58df49fab3c49e16ecd9<>res://.godot/imported/CoinAnim0014.png-77864c5264557f03f3d1ec1dba3a4bd2.ctex::
-::res://Builds/::1784866663
-::res://Builds/data_Squeakerboxx_linuxbsd_arm64/::1784866664
-Squeakerboxx.deps.json::JSON::-1::1784866664::0::1::::<><><>0<>0<><>::
-Squeakerboxx.runtimeconfig.json::JSON::-1::1784866664::0::1::::<><><>0<>0<><>::
+::res://Builds/::1785082854
+::res://Builds/data_Squeakerboxx_linuxbsd_arm64/::1785082854
+Squeakerboxx.deps.json::JSON::-1::1784927273::0::1::::<><><>0<>0<><>::
+Squeakerboxx.runtimeconfig.json::JSON::-1::1784927273::0::1::::<><><>0<>0<><>::

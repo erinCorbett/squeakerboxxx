@@ -17,6 +17,8 @@
 [ext_resource type="Texture2D" uid="uid://bqbce1mcy53kp" path="res://Assets/Textures/CoinAnim/CoinAnim0014.png" id="15_0mqo1"]
 [ext_resource type="PackedScene" uid="uid://b3wbbdwnv81sf" path="res://Assets/Prefabs/coin_burst.tscn" id="16_8od3o"]
 
+
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_c6smh"]
 animations = [{
 "frames": [{
@@ -69,7 +71,6 @@ animations = [{
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_441k0"]
 
-<<<<<<< HEAD
 [sub_resource type="Gradient" id="Gradient_g838n"]
 colors = PackedColorArray(0.7911734, 0.37315413, 0, 1, 1, 1, 1, 1)
 
@@ -78,8 +79,6 @@ _limits = [-1.0, 1.0, 0.0, 1.0]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
 point_count = 2
 
-=======
->>>>>>> 2cb0fb80956dc137c97a4008a36495edd9d0b9f7
 [node name="Coin" type="Area2D" unique_id=345939538 node_paths=PackedStringArray("sprite", "collider", "coinBurst")]
 z_index = -2
 script = ExtResource("1_aoqff")
@@ -101,7 +100,6 @@ shape = SubResource("CircleShape2D_441k0")
 [node name="CoinBurst" parent="." unique_id=1887231280 instance=ExtResource("16_8od3o")]
 z_index = 1
 z_as_relative = false
-<<<<<<< HEAD
 lifetime = 0.15000000000000002
 speed_scale = 0.72
 explosiveness = 1.0
@@ -119,8 +117,6 @@ color_ramp = SubResource("Gradient_g838n")
 hue_variation_min = -1.0
 hue_variation_max = 1.0
 hue_variation_curve = SubResource("Curve_dayt1")
-=======
->>>>>>> 2cb0fb80956dc137c97a4008a36495edd9d0b9f7
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
