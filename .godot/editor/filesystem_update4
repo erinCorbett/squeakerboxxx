@@ -1,0 +1,5 @@
+res://Assets/Scripts/Coin.cs
+res://Assets/Scripts/PlayerControllerBody2D.cs
+res://Assets/Scripts/Player.cs
+res://Assets/Scripts/CameraManager.cs
+res://Assets/Scripts/ParallaxScrolling.cs

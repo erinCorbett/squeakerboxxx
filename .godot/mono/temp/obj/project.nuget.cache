@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ryiKr8NbOIw=",
+  "dgSpecHash": "ZWmOV0juaCc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aaron\\Godot\\squeakerboxxx\\Squeakerboxx.csproj",
+  "projectFilePath": "C:\\Users\\aaron\\Git Projects\\squeakerboxxx\\Squeakerboxx.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aaron\\.nuget\\packages\\godot.sourcegenerators\\4.7.1\\godot.sourcegenerators.4.7.1.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\godotsharp\\4.7.1\\godotsharp.4.7.1.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\godotsharpeditor\\4.7.1\\godotsharpeditor.4.7.1.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.29\\microsoft.netcore.app.ref.8.0.29.nupkg.sha512",
-    "C:\\Users\\aaron\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-arm64\\8.0.29\\microsoft.netcore.app.runtime.linux-arm64.8.0.29.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.29\\microsoft.windowsdesktop.app.ref.8.0.29.nupkg.sha512",
-    "C:\\Users\\aaron\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.29\\microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512",
-    "C:\\Users\\aaron\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-arm64\\8.0.29\\microsoft.aspnetcore.app.runtime.linux-arm64.8.0.29.nupkg.sha512"
+    "C:\\Users\\aaron\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.29\\microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512"
   ],
   "logs": []
 }
